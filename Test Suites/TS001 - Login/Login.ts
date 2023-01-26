@@ -10,26 +10,19 @@
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <rerunImmediately>true</rerunImmediately>
-   <testSuiteGuid>56dea267-a716-43df-a5e9-537a534e2468</testSuiteGuid>
+   <testSuiteGuid>edd7a314-cd33-4b86-a6a9-3571d23e4bef</testSuiteGuid>
    <testCaseLink>
-      <guid>daf14d0e-907d-4e55-93a2-3f94ec934b11</guid>
+      <guid>18b552ac-c549-4c80-9cb8-3f5e2d050e87</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/TC001 - Login/L001 - Login (Positive)</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>4678ebdb-0a3a-43ec-925f-1fe77d3d475e</guid>
+      <guid>d66833af-cb1a-4ef8-a644-8c35b73a1828</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/TC001 - Login/L002 - Login with Locked Account (Positive)</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>11eb188b-c029-4985-9f87-478c7b804984</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/TC001 - Login/L003 - Login with wrong account</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>

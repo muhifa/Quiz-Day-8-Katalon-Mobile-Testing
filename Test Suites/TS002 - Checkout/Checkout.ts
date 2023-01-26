@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
    <description></description>
-   <name>Login</name>
+   <name>Checkout</name>
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
@@ -10,26 +10,19 @@
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <rerunImmediately>true</rerunImmediately>
-   <testSuiteGuid>56dea267-a716-43df-a5e9-537a534e2468</testSuiteGuid>
+   <testSuiteGuid>dca94f8a-7a57-4068-a512-0a3b8372835a</testSuiteGuid>
    <testCaseLink>
-      <guid>daf14d0e-907d-4e55-93a2-3f94ec934b11</guid>
+      <guid>78de85c9-58f5-46b4-b505-5dba387a2650</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/TC001 - Login/L001 - Login (Positive)</testCaseId>
+      <testCaseId>Test Cases/TC002 - Checkout/C001 - Checkout (Positive)</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>4678ebdb-0a3a-43ec-925f-1fe77d3d475e</guid>
+      <guid>ba5769ff-c017-4c7d-a075-262459d5993a</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/TC001 - Login/L002 - Login with Locked Account (Positive)</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>11eb188b-c029-4985-9f87-478c7b804984</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/TC001 - Login/L003 - Login with wrong account</testCaseId>
+      <testCaseId>Test Cases/TC002 - Checkout/C002 - Checkout with empty shipping Address</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>

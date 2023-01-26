@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>C002 - Checkout with empty shipping Address</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>9ae99ed8-fcc7-4156-96e0-36e1a0152cbf</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,26 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Login,,,,2023-01-26 12:58:04,2023-01-26 12:59:54,1m - 50.151s,FAILED
+,,,,,,,
+Test Cases/TC001 - Login/L001 - Login (Positive),,,,2023-01-26 12:58:04,2023-01-26 12:58:31,26.819s,PASSED
+"startApplication(""C:\Users\Muhifa\Downloads\Android-MyDemoAppRN.1.2.0.build-231.apk"", true)",,,,2023-01-26 12:58:05,2023-01-26 12:58:23,18.423s,PASSED
+"tap(findTestObject(""Object Repository/android.widget.ImageView""), 0)",,,,2023-01-26 12:58:23,2023-01-26 12:58:24,0.902s,PASSED
+"tap(findTestObject(""Object Repository/android.widget.TextView - Log In""), 0)",,,,2023-01-26 12:58:24,2023-01-26 12:58:26,1.783s,PASSED
+"setText(findTestObject(""Object Repository/android.widget.EditText""), ""bob@example.com"", 0)",,,,2023-01-26 12:58:26,2023-01-26 12:58:28,2.152s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/android.widget.EditText (1)""), ""dbXIBZ66cuht4KTRMDozZw=="", 0)",,,,2023-01-26 12:58:28,2023-01-26 12:58:29,1.197s,PASSED
+"tap(findTestObject(""Object Repository/android.widget.TextView - Login""), 0)",,,,2023-01-26 12:58:29,2023-01-26 12:58:30,0.749s,PASSED
+closeApplication(),,,,2023-01-26 12:58:30,2023-01-26 12:58:31,1.100s,PASSED
+,,,,,,,
+Test Cases/TC001 - Login/L002 - Login with Locked Account (Positive),,,,2023-01-26 12:58:31,2023-01-26 12:58:53,21.998s,PASSED
+"startApplication(""C:\Users\Muhifa\Downloads\Android-MyDemoAppRN.1.2.0.build-231.apk"", true)",,,,2023-01-26 12:58:32,2023-01-26 12:58:45,13.723s,PASSED
+"tap(findTestObject(""Object Repository/android.widget.ImageView (1)""), 0)",,,,2023-01-26 12:58:45,2023-01-26 12:58:46,0.814s,PASSED
+"tap(findTestObject(""Object Repository/android.widget.TextView - Log In (1)""), 0)",,,,2023-01-26 12:58:46,2023-01-26 12:58:48,1.832s,PASSED
+"setText(findTestObject(""Object Repository/android.widget.EditText (2)""), ""alice@example.com"", 0)",,,,2023-01-26 12:58:48,2023-01-26 12:58:50,2.139s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/android.widget.EditText (3)""), ""dbXIBZ66cuht4KTRMDozZw=="", 0)",,,,2023-01-26 12:58:50,2023-01-26 12:58:51,1.174s,PASSED
+"tap(findTestObject(""Object Repository/android.widget.TextView - Login (1)""), 0)",,,,2023-01-26 12:58:51,2023-01-26 12:58:52,0.748s,PASSED
+closeApplication(),,,,2023-01-26 12:58:52,2023-01-26 12:58:53,1.065s,PASSED
+,,,,,,,
+Test Cases/TC001 - Login/L003 - Login with wrong Account (Negative),,,,2023-01-26 12:59:40,2023-01-26 12:59:54,14.292s,FAILED
+"startApplication(""C:\Users\Muhifa\Downloads\Android-MyDemoAppRN.1.2.0.build-231.apk"", true)",,,,2023-01-26 12:59:40,2023-01-26 12:59:51,10.955s,PASSED
+"tap(findTestObject(""Object Repository/android.widget.ImageView (2)""), 0)",,,,2023-01-26 12:59:51,2023-01-26 12:59:51,0.725s,PASSED
+"tap(findTestObject(""Object Repository/android.widget.TextView - Log In (2)""), 0)",,,,2023-01-26 12:59:51,2023-01-26 12:59:53,1.750s,PASSED
+"setText(findTestObject(""""), "" "", 0)",,,,2023-01-26 12:59:53,2023-01-26 12:59:54,0.847s,FAILED

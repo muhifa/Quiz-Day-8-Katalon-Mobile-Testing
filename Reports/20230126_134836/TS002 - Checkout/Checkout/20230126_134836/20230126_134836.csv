@@ -1,0 +1,55 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Checkout,,,,2023-01-26 13:48:40,2023-01-26 13:50:28,1m - 48.439s,PASSED
+,,,,,,,
+Test Cases/TC002 - Checkout/C001 - Checkout (Positive),,,,2023-01-26 13:48:40,2023-01-26 13:49:36,56.261s,PASSED
+"startApplication(""C:\Users\Muhifa\Downloads\Android-MyDemoAppRN.1.2.0.build-231.apk"", true)",,,,2023-01-26 13:48:40,2023-01-26 13:48:58,17.756s,PASSED
+"tap(findTestObject(""Object Repository/Checkout/android.widget.TextView - Sauce Labs Backpack""), 0)",,,,2023-01-26 13:48:58,2023-01-26 13:49:00,1.273s,PASSED
+"scrollToText(""Add To Cart"")",,,,2023-01-26 13:49:00,2023-01-26 13:49:04,4.319s,PASSED
+"tap(findTestObject(""Object Repository/Checkout/android.widget.TextView - Add To Cart""), 0)",,,,2023-01-26 13:49:04,2023-01-26 13:49:04,0.559s,PASSED
+"tap(findTestObject(""Object Repository/Checkout/android.widget.ImageView""), 0)",,,,2023-01-26 13:49:04,2023-01-26 13:49:05,0.866s,PASSED
+"tap(findTestObject(""Object Repository/Checkout/android.widget.TextView - Proceed To Checkout""), 0)",,,,2023-01-26 13:49:05,2023-01-26 13:49:06,0.888s,PASSED
+"setText(findTestObject(""Object Repository/Checkout/android.widget.EditText""), ""bob@example.com"", 0)",,,,2023-01-26 13:49:06,2023-01-26 13:49:08,1.717s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Checkout/android.widget.EditText (1)""), ""dbXIBZ66cuht4KTRMDozZw=="", 0)",,,,2023-01-26 13:49:08,2023-01-26 13:49:09,1.204s,PASSED
+"tap(findTestObject(""Object Repository/Checkout/android.widget.TextView - Login""), 0)",,,,2023-01-26 13:49:09,2023-01-26 13:49:10,0.739s,PASSED
+"setText(findTestObject(""Object Repository/Checkout/android.widget.EditText - Rebecca Winter""), ""M iqbal"", 0)",,,,2023-01-26 13:49:10,2023-01-26 13:49:12,2.479s,PASSED
+"setText(findTestObject(""Object Repository/Checkout/android.widget.EditText - Mandorley 112""), ""telukjambe timur"", 0)",,,,2023-01-26 13:49:12,2023-01-26 13:49:14,1.637s,PASSED
+"setText(findTestObject(""Object Repository/Checkout/android.widget.EditText - Entrance 1""), ""puseurjaya"", 0)",,,,2023-01-26 13:49:14,2023-01-26 13:49:16,1.651s,PASSED
+"setText(findTestObject(""Object Repository/Checkout/android.widget.EditText - Truro""), ""karawang"", 0)",,,,2023-01-26 13:49:16,2023-01-26 13:49:17,1.632s,PASSED
+"setText(findTestObject(""Object Repository/Checkout/android.widget.EditText - Cornwall""), ""jawa barat"", 0)",,,,2023-01-26 13:49:17,2023-01-26 13:49:19,1.627s,PASSED
+"scrollToText(""Country"")",,,,2023-01-26 13:49:19,2023-01-26 13:49:22,3.345s,PASSED
+"setText(findTestObject(""Object Repository/Checkout/android.widget.EditText - 89750""), ""41361"", 0)",,,,2023-01-26 13:49:22,2023-01-26 13:49:24,1.545s,PASSED
+"setText(findTestObject(""Object Repository/Checkout/android.widget.EditText - United Kingdom""), ""Indonesia"", 0)",,,,2023-01-26 13:49:24,2023-01-26 13:49:25,1.631s,PASSED
+"tap(findTestObject(""Object Repository/Checkout/android.widget.TextView - To Payment""), 0)",,,,2023-01-26 13:49:25,2023-01-26 13:49:26,0.654s,PASSED
+"setText(findTestObject(""Object Repository/Checkout/android.widget.EditText - Rebecca Winter (1)""), ""Rebecca Winter"", 0)",,,,2023-01-26 13:49:26,2023-01-26 13:49:28,2.472s,PASSED
+"setText(findTestObject(""Object Repository/Checkout/android.widget.EditText - 3258 1265 7568 789""), ""325812657568789"", 0)",,,,2023-01-26 13:49:28,2023-01-26 13:49:30,1.616s,PASSED
+"setText(findTestObject(""Object Repository/Checkout/android.widget.EditText - 0325""), ""03/25"", 0)",,,,2023-01-26 13:49:30,2023-01-26 13:49:31,1.181s,PASSED
+"setText(findTestObject(""Object Repository/Checkout/android.widget.EditText - 123""), ""123"", 0)",,,,2023-01-26 13:49:31,2023-01-26 13:49:33,1.620s,PASSED
+"tap(findTestObject(""Object Repository/Checkout/android.widget.TextView - Review Order""), 0)",,,,2023-01-26 13:49:33,2023-01-26 13:49:34,0.626s,PASSED
+"tap(findTestObject(""Object Repository/Checkout/android.widget.TextView - Place Order""), 0)",,,,2023-01-26 13:49:34,2023-01-26 13:49:35,1.382s,PASSED
+closeApplication(),,,,2023-01-26 13:49:35,2023-01-26 13:49:36,1.277s,PASSED
+,,,,,,,
+Test Cases/TC002 - Checkout/C002 - Checkout with empty shipping Address,,,,2023-01-26 13:49:36,2023-01-26 13:50:28,51.809s,PASSED
+"startApplication(""C:\Users\Muhifa\Downloads\Android-MyDemoAppRN.1.2.0.build-231.apk"", true)",,,,2023-01-26 13:49:37,2023-01-26 13:49:52,15.122s,PASSED
+"tap(findTestObject(""Object Repository/Checkout/android.widget.TextView - Sauce Labs Backpack (2)""), 0)",,,,2023-01-26 13:49:52,2023-01-26 13:49:53,0.774s,PASSED
+"scrollToText(""Add To Cart"")",,,,2023-01-26 13:49:53,2023-01-26 13:49:56,3.621s,PASSED
+"tap(findTestObject(""Object Repository/Checkout/android.widget.TextView - Add To Cart (2)""), 0)",,,,2023-01-26 13:49:56,2023-01-26 13:49:57,0.431s,PASSED
+"tap(findTestObject(""Object Repository/Checkout/android.widget.ImageView (2)""), 0)",,,,2023-01-26 13:49:57,2023-01-26 13:49:58,0.881s,PASSED
+"tap(findTestObject(""Object Repository/Checkout/android.widget.TextView - Proceed To Checkout (2)""), 0)",,,,2023-01-26 13:49:58,2023-01-26 13:49:59,1.053s,PASSED
+"tap(findTestObject(""Object Repository/Checkout/android.widget.TextView - bobexample.com (1)""), 0)",,,,2023-01-26 13:49:59,2023-01-26 13:50:00,1.296s,PASSED
+"tap(findTestObject(""Object Repository/Checkout/android.widget.TextView - Login (2)""), 0)",,,,2023-01-26 13:50:00,2023-01-26 13:50:01,1.051s,PASSED
+"setText(findTestObject(""Object Repository/Checkout/android.widget.EditText - Rebecca Winter (4)""), "" "", 0)",,,,2023-01-26 13:50:01,2023-01-26 13:50:04,2.489s,PASSED
+"setText(findTestObject(""Object Repository/Checkout/android.widget.EditText - Mandorley 112 (2)""), "" "", 0)",,,,2023-01-26 13:50:04,2023-01-26 13:50:05,1.618s,PASSED
+"setText(findTestObject(""Object Repository/Checkout/android.widget.EditText - Entrance 1 (2)""), "" "", 0)",,,,2023-01-26 13:50:05,2023-01-26 13:50:07,1.617s,PASSED
+"setText(findTestObject(""Object Repository/Checkout/android.widget.EditText - Truro (2)""), "" "", 0)",,,,2023-01-26 13:50:07,2023-01-26 13:50:08,1.613s,PASSED
+"setText(findTestObject(""Object Repository/Checkout/android.widget.EditText - Cornwall (2)""), "" "", 0)",,,,2023-01-26 13:50:08,2023-01-26 13:50:10,1.616s,PASSED
+"scrollToText(""Country"")",,,,2023-01-26 13:50:10,2023-01-26 13:50:14,3.986s,PASSED
+"setText(findTestObject(""Object Repository/Checkout/android.widget.EditText - 89750 (2)""), "" "", 0)",,,,2023-01-26 13:50:14,2023-01-26 13:50:15,1.424s,PASSED
+"setText(findTestObject(""Object Repository/Checkout/android.widget.EditText - United Kingdom (2)""), "" "", 0)",,,,2023-01-26 13:50:15,2023-01-26 13:50:17,1.628s,PASSED
+"tap(findTestObject(""Object Repository/Checkout/android.widget.TextView - To Payment (2)""), 0)",,,,2023-01-26 13:50:17,2023-01-26 13:50:18,0.641s,PASSED
+"setText(findTestObject(""Object Repository/Checkout/android.widget.EditText - Rebecca Winter (5)""), ""Rebecca Winter"", 0)",,,,2023-01-26 13:50:18,2023-01-26 13:50:20,2.325s,PASSED
+"setText(findTestObject(""Object Repository/Checkout/android.widget.EditText - 3258 1265 7568 789 (2)""), ""325812657568789"", 0)",,,,2023-01-26 13:50:20,2023-01-26 13:50:22,1.618s,PASSED
+"setText(findTestObject(""Object Repository/Checkout/android.widget.EditText - 0325 (2)""), ""03/25"", 0)",,,,2023-01-26 13:50:22,2023-01-26 13:50:23,1.647s,PASSED
+"setText(findTestObject(""Object Repository/Checkout/android.widget.EditText - 123 (2)""), ""123"", 0)",,,,2023-01-26 13:50:23,2023-01-26 13:50:25,1.613s,PASSED
+"tap(findTestObject(""Object Repository/Checkout/android.widget.TextView - Review Order (2)""), 0)",,,,2023-01-26 13:50:25,2023-01-26 13:50:26,0.626s,PASSED
+"tap(findTestObject(""Object Repository/Checkout/android.widget.TextView - Place Order (1)""), 0)",,,,2023-01-26 13:50:26,2023-01-26 13:50:27,1.502s,PASSED
+closeApplication(),,,,2023-01-26 13:50:27,2023-01-26 13:50:28,0.989s,PASSED
